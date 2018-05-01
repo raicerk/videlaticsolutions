@@ -69,7 +69,7 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 900;
   color: #333333;
-  text-transform: uppercase;
+  text-transform: inherit;
   margin-bottom: 30px;
 }
 h2 {
