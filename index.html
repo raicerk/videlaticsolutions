@@ -69,21 +69,14 @@
 					<nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
 						<ul class="nav sf-menu clearfix">
 							<li class="active"><a href="index.html">Inicio</a></li>
-							<li class="sub-menu"><a href="index-1.html">Nosotros</a>
+							<li class="sub-menu"><a href="#Nosotros">Nosotros</a>
 								<ul class="submenu">
 									<li><a href="#">Historia</a></li>
-									<li><a href="#">Clientes</a>
-										<ul class="submenu">
-											<li><a href="#">Lorem</a></li>
-											<li><a href="#">Dolorsit</a></li>
-											<li><a href="#">Ametrew</a></li>
-										</ul> 
-									</li>
-									<li><a href="#">Consultorias</a></li>
+									<li><a href="#">Clientes</a></li>
 								</ul>
 							</li>
 							<li><a href="index-2.html">Servicios</a></li>
-							<li><a href="index-3.html">Contactanos</a></li>
+							<li><a href="#Contactanos">Contactanos</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -135,7 +128,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12wow fadeInUp">
 					<header class="with-border">
-						<h2>Sobre nosotros <small>Que hacemos!!</small></h2>
+						<h2 id="Nosotros">Sobre nosotros <small>Que hacemos!!</small></h2>
 					</header>
 				</div>
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow fadeInLeft">
@@ -281,7 +274,7 @@
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-12wow fadeInUp">
 					<header class="with-border">
-						<h2>Contact form <small>Deis autem vel eum iriure dol</small></h2>
+						<h2 id="Contactanos">Contactanos! <small>Expertos en ingenieria</small></h2>
 					</header>
 				</div>
 			</div>
@@ -290,25 +283,25 @@
 					<form id="contact-form">
 						<div class="contact-form-loader"></div>
 						<fieldset>
-							<label class="name form-div-1">
-								<input type="text" name="name" placeholder="Name" value="" data-constraints="@Required @JustLetters"  />
-								<span class="empty-message">*This field is required.</span>
-								<span class="error-message">*This is not a valid name.</span>
+							<label class="Nombre form-div-1">
+								<input type="text" name="nombre" placeholder="Nombre" value="" data-constraints="@Required @JustLetters"  />
+								<span class="empty-message">*Este campo es requerido.</span>
+								<span class="error-message">*Este nombre no es valido.</span>
 							</label>
-							<label class="email form-div-2">
-								<input type="text" name="email" placeholder="E-mail" value="" data-constraints="@Required @Email" />
-								<span class="empty-message">*This field is required.</span>
-								<span class="error-message">*This is not a valid email.</span>
+							<label class="correo form-div-2">
+								<input type="text" name="correo" placeholder="Correo" value="" data-constraints="@Required @Email" />
+								<span class="empty-message">*Este campo es requerido.</span>
+								<span class="error-message">*Este correo no es valido.</span>
 							</label>
-							<label class="phone form-div-3">
-								<input type="text" name="phone" placeholder="Phone" value="" data-constraints="@JustNumbers" />
-								<span class="empty-message">*This field is required.</span>
-								<span class="error-message">*This is not a valid phone.</span>
+							<label class="telefono form-div-3">
+								<input type="text" name="telefono" placeholder="Telefono" value="" data-constraints="@Required @JustNumbers" />
+								<span class="empty-message">*Este campo es requerido.</span>
+								<span class="error-message">*Este telefono no es valido.</span>
 							</label>
-							<label class="message form-div-4">
-								<textarea name="message" placeholder="Message" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-								<span class="empty-message">*This field is required.</span>
-								<span class="error-message">*The message is too short.</span>
+							<label class="mensaje form-div-4">
+								<textarea name="mensaje" placeholder="Mensaje" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
+								<span class="empty-message">*Este campo es requerido.</span>
+								<span class="error-message">*Este mensaje es muy corto</span>
 							</label>
 							<!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
 							<div class="btns">
@@ -337,7 +330,7 @@
 <!-- ============================== footer ============================== -->
 <footer id="footer" class="pattern-2">
     <div class="container">
-        <p class="wow fadeInUp">Copyright &copy; <span id="copyright-year"></span>|<a href="index-5.html">Privacy Policy</a></p>
+        <p class="wow fadeInUp">Copyright &copy; <span id="copyright-year"></span>|<a href="index-5.html">Videla TIC Solutions</a></p>
     </div>
   <!-- {%FOOTER_LINK} -->
 </footer>
