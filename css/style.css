@@ -1267,3 +1267,44 @@ nav.tm_navbar .sub-menu > ul li > ul li a:hover {
   }
 }
 /*Core variables and mixins*/
+
+.redesSociales{
+  z-index: 10000000;
+  overflow: hidden;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 0;
+  border-right: 1px solid;
+  transition: none;
+  position: fixed;
+  right: 261px;
+  bottom: 0px;
+  width: 60px;
+  height: 31px;
+  color: #ffffd1;
+  background-color: #f78205;
+  border-color: #c44f00;
+  text-shadow: 0px 0px 1px #aa3500;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.redesSociales a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.redesSociales a:hover{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
