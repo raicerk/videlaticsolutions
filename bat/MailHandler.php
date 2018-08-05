@@ -24,11 +24,11 @@
 		$messageBody = strip_tags($messageBody);
 	}
 	
-	$headers = 'From:' . "jvmora@raicerk.cl" . "\r\n" . 'Content-Type: text/plain; charset=UTF-8' . "\r\n";
+	$headers = 'From:' . "soporte.ti@videlaticsolutions.cl" . "\r\n" . 'Content-Type: text/plain; charset=UTF-8' . "\r\n";
 	$subject = 'Contacto desde Videlatic Solutions: ' . $_POST["nombre"];
 	
 	try{
-		if(!mail("jvmora@raicerk.cl", $subject, $messageBody, $headers)){
+		if(!mail("soporte.ti@videlaticsolutions.cl", $subject, $messageBody, $headers)){
 			throw new Exception('mail failed');
 			echo "errororororor";
 		}else{
